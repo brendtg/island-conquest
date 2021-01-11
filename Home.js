@@ -3,73 +3,19 @@ import { StyleSheet, Text, View, Button, TextInput , TouchableOpacity } from 're
 import 'react-native-gesture-handler';
 import AsyncStorage from '@react-native-community/async-storage';
 
-const STORAGE_KEY = '@save_name'
-
 const HomeScreen = ({ navigation }) => {
-    const onChangeText = userName => setName(userName)
-
-    const onSubmitEditing = () => {
-    if (!name) return
-    saveData(name)
-    // setAge('')
-    }
-
-    const clearStorage = async () => {
-    try {
-        await AsyncStorage.clear()
-        alert('Storage cleared')
-    } catch (e) {
-        alert('Failed to clear')
-    }
-    }
-    const saveData = async() => {
-    try {
-        await AsyncStorage.setItem(STORAGE_KEY, name)
-        alert('Data successfully saved')
-    } catch (e) {
-        alert('Failed to save name')
-    }
-    }
-
-    const readData = async() => {
-    try {
-        const userName = await AsyncStorage.getItem(STORAGE_KEY)
-        if (userName !== null) {
-        setAge(userName)
-        }
-    } catch (e) {
-        alert('Failed to fetch the name from storage')
-    }
-    }
-
-    const [name, setName] = useState('')
-    useEffect(() => {
-        readData()
-    },[])
     return(
-        <View style = {{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-            <Text style={styles.panel}>Your name is {name}</Text>
-        <Text>Home Screen</Text>
-            <Text>Enter your name here:</Text>
-            <TextInput
-            style={styles.input}
-            value={name}
-            placeholder="Name"
-            onChangeText={onChangeText}
-            onSubmitEditing={onSubmitEditing}
+        <View>
+        <Text style={styles.title}>Home Screen</Text>
+            <Button title="Go to overview page"
+            onPress={() => {
+                navigation.navigate('Overview')
+            }
+            }
             />
-            <TouchableOpacity onPress={clearStorage} style={styles.button}>
-            <Text style={styles.buttonText}>Clear Storage</Text>
-            </TouchableOpacity>
-            <Button title="Go to glossary page"
+            <Button title="See rules"
             onPress={() => {
                 navigation.navigate('Glossary')
-            }
-            }
-            />
-            <Button title="Go to resources page"
-            onPress={() => {
-                navigation.navigate('Resources')
             }
             }
             />
@@ -89,7 +35,9 @@ const styles = StyleSheet.create({
     alignItems: 'center'
   },
   title: {
-    fontSize: 22,
+    paddingTop: 60,
+    marginLeft: 10,
+    fontSize: 32,
     color: '#333',
     fontWeight: 'bold'
   },

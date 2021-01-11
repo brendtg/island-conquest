@@ -7,6 +7,10 @@ import { createStackNavigator } from '@react-navigation/stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import GlossaryScreen from './Glossary';
 import ResourceScreen from './Resources';
+import OverviewScreen from './Overview';
+import BuildingsScreen from './Buildings';
+import BattleScreen from './BattleScreen';
+import DiplomacyScreen from './DiplomacyScreen';
 import HomeScreen from './Home';
 import AsyncStorage from '@react-native-community/async-storage';
 import { useEffect } from 'react';
@@ -14,22 +18,27 @@ import { useEffect } from 'react';
 
 
 const Tab = createBottomTabNavigator();
+const Stack = createStackNavigator();
 
-
-
+const Home = () => {
+  return(
+      <Stack.Navigator>
+        <Stack.Screen name="Home" component={HomeScreen}/>
+        <Stack.Screen name="Glossary" component={GlossaryScreen}/>
+      </Stack.Navigator>
+  )
+}
 const App = () => {
   return (
-    <>
-    <View>
-    </View>
     <NavigationContainer>
       <Tab.Navigator>
-        <Tab.Screen name="Home" component={HomeScreen}/>
-        <Tab.Screen name="Glossary" component={GlossaryScreen}/>
+        <Tab.Screen name="Buildings" component={BuildingsScreen}/>
+        <Tab.Screen name="Battle" component={BattleScreen}/>
+        <Tab.Screen name="Overview" component={OverviewScreen}/>
         <Tab.Screen name="Resources" component={ResourceScreen}/>
+        <Tab.Screen name="Diplomacy" component={DiplomacyScreen}/>
       </Tab.Navigator>
     </NavigationContainer>
-    </>
   );
 }
 const styles = StyleSheet.create({
@@ -44,7 +53,7 @@ const styles = StyleSheet.create({
     alignItems: 'center'
   },
   title: {
-    fontSize: 22,
+    fontSize: 32,
     color: '#333',
     fontWeight: 'bold'
   },
