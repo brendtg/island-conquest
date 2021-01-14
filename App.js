@@ -1,17 +1,17 @@
-import { StatusBar } from 'expo-status-bar';
 import React, { useState } from 'react';
 import { StyleSheet, Text, View,  TouchableOpacity , TextInput } from 'react-native';
 import 'react-native-gesture-handler';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import GlossaryScreen from './Glossary';
-import ResourceScreen from './Resources';
-import OverviewScreen from './Overview';
-import BuildingsScreen from './Buildings';
-import BattleScreen from './Battle';
-import DiplomacyScreen from './Diplomacy';
-import HomeScreen from './Home';
+import GlossaryScreen from './src/Glossary';
+import ResourceScreen from './src/Resources';
+import OverviewScreen from './src/Overview';
+import BuildingsScreen from './src/Buildings';
+import BattleScreen from './src/Battle';
+import DiplomacyScreen from './src/Diplomacy';
+import Chat from './src/Chat';
+import HomeScreen from './src/Home';
 import AsyncStorage from '@react-native-community/async-storage';
 import { useEffect } from 'react';
 
@@ -36,7 +36,7 @@ const App = () => {
         <Tab.Screen name="Battle" component={BattleScreen}/>
         <Tab.Screen name="Overview" component={OverviewScreen}/>
         <Tab.Screen name="Resources" component={ResourceScreen}/>
-        <Tab.Screen name="Diplomacy" component={DiplomacyScreen}/>
+        <Tab.Screen name="Chat" component={Chat}/>
       </Tab.Navigator>
     </NavigationContainer>
   );

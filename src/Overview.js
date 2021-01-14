@@ -51,7 +51,7 @@ const DATA = [
   }
 ];
 
-const GlossaryScreen = ({ navigation }) => {
+const OverviewScreen = ({ navigation }) => {
 
   return(
       <SafeAreaView style={styles.container}>
@@ -90,4 +90,4 @@ const Item = ({ title, navigation  }) => {
   )
 };
 
-export default GlossaryScreen;
+export default OverviewScreen;

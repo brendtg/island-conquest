@@ -6,7 +6,6 @@ import 'react-native-gesture-handler';
 import { NavigationContainer } from '@react-navigation/native'
 import { createStackNavigator } from '@react-navigation/stack';
 import Collapsible from 'react-native-collapsible';
-import { TouchableOpacity } from 'react-native-gesture-handler';
 
 const styles = StyleSheet.create({
   container: {
@@ -52,7 +51,7 @@ const DATA = [
   }
 ];
 
-const GlossaryScreen = ({ navigation }) => {
+const BuildingScreen = ({ navigation }) => {
 
   return(
       <SafeAreaView style={styles.container}>
@@ -76,7 +75,7 @@ const Item = ({ title, navigation  }) => {
   console.log (Collapsible)
   return(
   <View style={styles.item}>
-    <TouchableOpacity title={title}
+    <Button title={title}
     onPress={() => {
       setCollapsibleVisible(!collapsibleVisible)
         // navigation.navigate('Home')
@@ -91,4 +90,4 @@ const Item = ({ title, navigation  }) => {
   )
 };
 
-export default GlossaryScreen;
+export default BuildingScreen;
