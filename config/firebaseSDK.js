@@ -5,12 +5,12 @@ class FirebaseSDK {
     if (!firebase.apps.length) {
       //avoid re-initializing
       firebase.initializeApp({
-        apiKey: '<your-api-key>',
-        authDomain: '<your-auth-domain>',
-        databaseURL: 'https://<your-db-url>.firebaseio.com',
-        projectId: '<your-project-id>',
-        storageBucket: '<your-storage-bucket>.appspot.com',
-        messagingSenderId: '<your-sender-id>'
+        apiKey: 'AIzaSyBMqf3ZzPuqNN88sk1s7fVnO1zaodmdOfo',
+        authDomain: 'island-conquest-6b8cc.firebase.com',
+        databaseURL: 'https://island-conquest-6b8cc-default-rtdb.firebaseio.com/',
+        projectId: 'island-conquest-6b8cc',
+        storageBucket: 'island-conquest-6b8cc.appspot.com',
+        messagingSenderId: '292954883091'
       });
     }
   }

@@ -7,73 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		133E960E25ABFFDC00BB1235 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133E960D25ABFFDC00BB1235 /* Tests_iOS.swift */; };
-		133E961925ABFFDC00BB1235 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133E961825ABFFDC00BB1235 /* Tests_macOS.swift */; };
-		133E961B25ABFFDC00BB1235 /* islandconquesetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133E95F225ABFFDB00BB1235 /* islandconquesetApp.swift */; };
-		133E961C25ABFFDC00BB1235 /* islandconquesetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133E95F225ABFFDB00BB1235 /* islandconquesetApp.swift */; };
-		133E961D25ABFFDC00BB1235 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133E95F325ABFFDB00BB1235 /* ContentView.swift */; };
-		133E961E25ABFFDC00BB1235 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133E95F325ABFFDB00BB1235 /* ContentView.swift */; };
-		133E961F25ABFFDC00BB1235 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 133E95F425ABFFDC00BB1235 /* Assets.xcassets */; };
-		133E962025ABFFDC00BB1235 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 133E95F425ABFFDC00BB1235 /* Assets.xcassets */; };
+		13901CF725B13E3900D8E716 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13901CF625B13E3900D8E716 /* Tests_iOS.swift */; };
+		13901D0225B13E3900D8E716 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13901D0125B13E3900D8E716 /* Tests_macOS.swift */; };
+		13901D0425B13E3900D8E716 /* islandconquestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13901CDB25B13E3800D8E716 /* islandconquestApp.swift */; };
+		13901D0525B13E3900D8E716 /* islandconquestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13901CDB25B13E3800D8E716 /* islandconquestApp.swift */; };
+		13901D0625B13E3900D8E716 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13901CDC25B13E3800D8E716 /* ContentView.swift */; };
+		13901D0725B13E3900D8E716 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13901CDC25B13E3800D8E716 /* ContentView.swift */; };
+		13901D0825B13E3900D8E716 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13901CDD25B13E3900D8E716 /* Assets.xcassets */; };
+		13901D0925B13E3900D8E716 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13901CDD25B13E3900D8E716 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		133E960A25ABFFDC00BB1235 /* PBXContainerItemProxy */ = {
+		13901CF325B13E3900D8E716 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 133E95ED25ABFFDB00BB1235 /* Project object */;
+			containerPortal = 13901CD625B13E3700D8E716 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 133E95F825ABFFDC00BB1235;
-			remoteInfo = "islandconqueset (iOS)";
+			remoteGlobalIDString = 13901CE125B13E3900D8E716;
+			remoteInfo = "islandconquest (iOS)";
 		};
-		133E961525ABFFDC00BB1235 /* PBXContainerItemProxy */ = {
+		13901CFE25B13E3900D8E716 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 133E95ED25ABFFDB00BB1235 /* Project object */;
+			containerPortal = 13901CD625B13E3700D8E716 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 133E960025ABFFDC00BB1235;
-			remoteInfo = "islandconqueset (macOS)";
+			remoteGlobalIDString = 13901CE925B13E3900D8E716;
+			remoteInfo = "islandconquest (macOS)";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		133E95F225ABFFDB00BB1235 /* islandconquesetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = islandconquesetApp.swift; sourceTree = "<group>"; };
-		133E95F325ABFFDB00BB1235 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		133E95F425ABFFDC00BB1235 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		133E95F925ABFFDC00BB1235 /* islandconqueset.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = islandconqueset.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		133E95FC25ABFFDC00BB1235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		133E960125ABFFDC00BB1235 /* islandconqueset.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = islandconqueset.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		133E960325ABFFDC00BB1235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		133E960425ABFFDC00BB1235 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
-		133E960925ABFFDC00BB1235 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		133E960D25ABFFDC00BB1235 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
-		133E960F25ABFFDC00BB1235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		133E961425ABFFDC00BB1235 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		133E961825ABFFDC00BB1235 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
-		133E961A25ABFFDC00BB1235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13901CDB25B13E3800D8E716 /* islandconquestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = islandconquestApp.swift; sourceTree = "<group>"; };
+		13901CDC25B13E3800D8E716 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		13901CDD25B13E3900D8E716 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13901CE225B13E3900D8E716 /* islandconquest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = islandconquest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13901CE525B13E3900D8E716 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13901CEA25B13E3900D8E716 /* islandconquest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = islandconquest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13901CEC25B13E3900D8E716 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13901CED25B13E3900D8E716 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		13901CF225B13E3900D8E716 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13901CF625B13E3900D8E716 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		13901CF825B13E3900D8E716 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13901CFD25B13E3900D8E716 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13901D0125B13E3900D8E716 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		13901D0325B13E3900D8E716 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		133E95F625ABFFDC00BB1235 /* Frameworks */ = {
+		13901CDF25B13E3900D8E716 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		133E95FE25ABFFDC00BB1235 /* Frameworks */ = {
+		13901CE725B13E3900D8E716 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		133E960625ABFFDC00BB1235 /* Frameworks */ = {
+		13901CEF25B13E3900D8E716 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		133E961125ABFFDC00BB1235 /* Frameworks */ = {
+		13901CFA25B13E3900D8E716 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -83,70 +83,70 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		133E95EC25ABFFDB00BB1235 = {
+		13901CD525B13E3700D8E716 = {
 			isa = PBXGroup;
 			children = (
-				133E95F125ABFFDB00BB1235 /* Shared */,
-				133E95FB25ABFFDC00BB1235 /* iOS */,
-				133E960225ABFFDC00BB1235 /* macOS */,
-				133E960C25ABFFDC00BB1235 /* Tests iOS */,
-				133E961725ABFFDC00BB1235 /* Tests macOS */,
-				133E95FA25ABFFDC00BB1235 /* Products */,
+				13901CDA25B13E3800D8E716 /* Shared */,
+				13901CE425B13E3900D8E716 /* iOS */,
+				13901CEB25B13E3900D8E716 /* macOS */,
+				13901CF525B13E3900D8E716 /* Tests iOS */,
+				13901D0025B13E3900D8E716 /* Tests macOS */,
+				13901CE325B13E3900D8E716 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		133E95F125ABFFDB00BB1235 /* Shared */ = {
+		13901CDA25B13E3800D8E716 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				133E95F225ABFFDB00BB1235 /* islandconquesetApp.swift */,
-				133E95F325ABFFDB00BB1235 /* ContentView.swift */,
-				133E95F425ABFFDC00BB1235 /* Assets.xcassets */,
+				13901CDB25B13E3800D8E716 /* islandconquestApp.swift */,
+				13901CDC25B13E3800D8E716 /* ContentView.swift */,
+				13901CDD25B13E3900D8E716 /* Assets.xcassets */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
 		};
-		133E95FA25ABFFDC00BB1235 /* Products */ = {
+		13901CE325B13E3900D8E716 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				133E95F925ABFFDC00BB1235 /* islandconqueset.app */,
-				133E960125ABFFDC00BB1235 /* islandconqueset.app */,
-				133E960925ABFFDC00BB1235 /* Tests iOS.xctest */,
-				133E961425ABFFDC00BB1235 /* Tests macOS.xctest */,
+				13901CE225B13E3900D8E716 /* islandconquest.app */,
+				13901CEA25B13E3900D8E716 /* islandconquest.app */,
+				13901CF225B13E3900D8E716 /* Tests iOS.xctest */,
+				13901CFD25B13E3900D8E716 /* Tests macOS.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		133E95FB25ABFFDC00BB1235 /* iOS */ = {
+		13901CE425B13E3900D8E716 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				133E95FC25ABFFDC00BB1235 /* Info.plist */,
+				13901CE525B13E3900D8E716 /* Info.plist */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
 		};
-		133E960225ABFFDC00BB1235 /* macOS */ = {
+		13901CEB25B13E3900D8E716 /* macOS */ = {
 			isa = PBXGroup;
 			children = (
-				133E960325ABFFDC00BB1235 /* Info.plist */,
-				133E960425ABFFDC00BB1235 /* macOS.entitlements */,
+				13901CEC25B13E3900D8E716 /* Info.plist */,
+				13901CED25B13E3900D8E716 /* macOS.entitlements */,
 			);
 			path = macOS;
 			sourceTree = "<group>";
 		};
-		133E960C25ABFFDC00BB1235 /* Tests iOS */ = {
+		13901CF525B13E3900D8E716 /* Tests iOS */ = {
 			isa = PBXGroup;
 			children = (
-				133E960D25ABFFDC00BB1235 /* Tests_iOS.swift */,
-				133E960F25ABFFDC00BB1235 /* Info.plist */,
+				13901CF625B13E3900D8E716 /* Tests_iOS.swift */,
+				13901CF825B13E3900D8E716 /* Info.plist */,
 			);
 			path = "Tests iOS";
 			sourceTree = "<group>";
 		};
-		133E961725ABFFDC00BB1235 /* Tests macOS */ = {
+		13901D0025B13E3900D8E716 /* Tests macOS */ = {
 			isa = PBXGroup;
 			children = (
-				133E961825ABFFDC00BB1235 /* Tests_macOS.swift */,
-				133E961A25ABFFDC00BB1235 /* Info.plist */,
+				13901D0125B13E3900D8E716 /* Tests_macOS.swift */,
+				13901D0325B13E3900D8E716 /* Info.plist */,
 			);
 			path = "Tests macOS";
 			sourceTree = "<group>";
@@ -154,102 +154,102 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		133E95F825ABFFDC00BB1235 /* islandconqueset (iOS) */ = {
+		13901CE125B13E3900D8E716 /* islandconquest (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 133E962325ABFFDC00BB1235 /* Build configuration list for PBXNativeTarget "islandconqueset (iOS)" */;
+			buildConfigurationList = 13901D0C25B13E3900D8E716 /* Build configuration list for PBXNativeTarget "islandconquest (iOS)" */;
 			buildPhases = (
-				133E95F525ABFFDC00BB1235 /* Sources */,
-				133E95F625ABFFDC00BB1235 /* Frameworks */,
-				133E95F725ABFFDC00BB1235 /* Resources */,
+				13901CDE25B13E3900D8E716 /* Sources */,
+				13901CDF25B13E3900D8E716 /* Frameworks */,
+				13901CE025B13E3900D8E716 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "islandconqueset (iOS)";
-			productName = "islandconqueset (iOS)";
-			productReference = 133E95F925ABFFDC00BB1235 /* islandconqueset.app */;
+			name = "islandconquest (iOS)";
+			productName = "islandconquest (iOS)";
+			productReference = 13901CE225B13E3900D8E716 /* islandconquest.app */;
 			productType = "com.apple.product-type.application";
 		};
-		133E960025ABFFDC00BB1235 /* islandconqueset (macOS) */ = {
+		13901CE925B13E3900D8E716 /* islandconquest (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 133E962625ABFFDC00BB1235 /* Build configuration list for PBXNativeTarget "islandconqueset (macOS)" */;
+			buildConfigurationList = 13901D0F25B13E3900D8E716 /* Build configuration list for PBXNativeTarget "islandconquest (macOS)" */;
 			buildPhases = (
-				133E95FD25ABFFDC00BB1235 /* Sources */,
-				133E95FE25ABFFDC00BB1235 /* Frameworks */,
-				133E95FF25ABFFDC00BB1235 /* Resources */,
+				13901CE625B13E3900D8E716 /* Sources */,
+				13901CE725B13E3900D8E716 /* Frameworks */,
+				13901CE825B13E3900D8E716 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "islandconqueset (macOS)";
-			productName = "islandconqueset (macOS)";
-			productReference = 133E960125ABFFDC00BB1235 /* islandconqueset.app */;
+			name = "islandconquest (macOS)";
+			productName = "islandconquest (macOS)";
+			productReference = 13901CEA25B13E3900D8E716 /* islandconquest.app */;
 			productType = "com.apple.product-type.application";
 		};
-		133E960825ABFFDC00BB1235 /* Tests iOS */ = {
+		13901CF125B13E3900D8E716 /* Tests iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 133E962925ABFFDC00BB1235 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildConfigurationList = 13901D1225B13E3900D8E716 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
 			buildPhases = (
-				133E960525ABFFDC00BB1235 /* Sources */,
-				133E960625ABFFDC00BB1235 /* Frameworks */,
-				133E960725ABFFDC00BB1235 /* Resources */,
+				13901CEE25B13E3900D8E716 /* Sources */,
+				13901CEF25B13E3900D8E716 /* Frameworks */,
+				13901CF025B13E3900D8E716 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				133E960B25ABFFDC00BB1235 /* PBXTargetDependency */,
+				13901CF425B13E3900D8E716 /* PBXTargetDependency */,
 			);
 			name = "Tests iOS";
 			productName = "Tests iOS";
-			productReference = 133E960925ABFFDC00BB1235 /* Tests iOS.xctest */;
+			productReference = 13901CF225B13E3900D8E716 /* Tests iOS.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		133E961325ABFFDC00BB1235 /* Tests macOS */ = {
+		13901CFC25B13E3900D8E716 /* Tests macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 133E962C25ABFFDC00BB1235 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildConfigurationList = 13901D1525B13E3900D8E716 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
 			buildPhases = (
-				133E961025ABFFDC00BB1235 /* Sources */,
-				133E961125ABFFDC00BB1235 /* Frameworks */,
-				133E961225ABFFDC00BB1235 /* Resources */,
+				13901CF925B13E3900D8E716 /* Sources */,
+				13901CFA25B13E3900D8E716 /* Frameworks */,
+				13901CFB25B13E3900D8E716 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				133E961625ABFFDC00BB1235 /* PBXTargetDependency */,
+				13901CFF25B13E3900D8E716 /* PBXTargetDependency */,
 			);
 			name = "Tests macOS";
 			productName = "Tests macOS";
-			productReference = 133E961425ABFFDC00BB1235 /* Tests macOS.xctest */;
+			productReference = 13901CFD25B13E3900D8E716 /* Tests macOS.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		133E95ED25ABFFDB00BB1235 /* Project object */ = {
+		13901CD625B13E3700D8E716 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1230;
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
-					133E95F825ABFFDC00BB1235 = {
+					13901CE125B13E3900D8E716 = {
 						CreatedOnToolsVersion = 12.3;
 					};
-					133E960025ABFFDC00BB1235 = {
+					13901CE925B13E3900D8E716 = {
 						CreatedOnToolsVersion = 12.3;
 					};
-					133E960825ABFFDC00BB1235 = {
+					13901CF125B13E3900D8E716 = {
 						CreatedOnToolsVersion = 12.3;
-						TestTargetID = 133E95F825ABFFDC00BB1235;
+						TestTargetID = 13901CE125B13E3900D8E716;
 					};
-					133E961325ABFFDC00BB1235 = {
+					13901CFC25B13E3900D8E716 = {
 						CreatedOnToolsVersion = 12.3;
-						TestTargetID = 133E960025ABFFDC00BB1235;
+						TestTargetID = 13901CE925B13E3900D8E716;
 					};
 				};
 			};
-			buildConfigurationList = 133E95F025ABFFDB00BB1235 /* Build configuration list for PBXProject "islandconqueset" */;
+			buildConfigurationList = 13901CD925B13E3700D8E716 /* Build configuration list for PBXProject "islandconquest" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -257,44 +257,44 @@
 				en,
 				Base,
 			);
-			mainGroup = 133E95EC25ABFFDB00BB1235;
-			productRefGroup = 133E95FA25ABFFDC00BB1235 /* Products */;
+			mainGroup = 13901CD525B13E3700D8E716;
+			productRefGroup = 13901CE325B13E3900D8E716 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				133E95F825ABFFDC00BB1235 /* islandconqueset (iOS) */,
-				133E960025ABFFDC00BB1235 /* islandconqueset (macOS) */,
-				133E960825ABFFDC00BB1235 /* Tests iOS */,
-				133E961325ABFFDC00BB1235 /* Tests macOS */,
+				13901CE125B13E3900D8E716 /* islandconquest (iOS) */,
+				13901CE925B13E3900D8E716 /* islandconquest (macOS) */,
+				13901CF125B13E3900D8E716 /* Tests iOS */,
+				13901CFC25B13E3900D8E716 /* Tests macOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		133E95F725ABFFDC00BB1235 /* Resources */ = {
+		13901CE025B13E3900D8E716 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				133E961F25ABFFDC00BB1235 /* Assets.xcassets in Resources */,
+				13901D0825B13E3900D8E716 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		133E95FF25ABFFDC00BB1235 /* Resources */ = {
+		13901CE825B13E3900D8E716 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				133E962025ABFFDC00BB1235 /* Assets.xcassets in Resources */,
+				13901D0925B13E3900D8E716 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		133E960725ABFFDC00BB1235 /* Resources */ = {
+		13901CF025B13E3900D8E716 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		133E961225ABFFDC00BB1235 /* Resources */ = {
+		13901CFB25B13E3900D8E716 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -304,57 +304,57 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		133E95F525ABFFDC00BB1235 /* Sources */ = {
+		13901CDE25B13E3900D8E716 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				133E961D25ABFFDC00BB1235 /* ContentView.swift in Sources */,
-				133E961B25ABFFDC00BB1235 /* islandconquesetApp.swift in Sources */,
+				13901D0625B13E3900D8E716 /* ContentView.swift in Sources */,
+				13901D0425B13E3900D8E716 /* islandconquestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		133E95FD25ABFFDC00BB1235 /* Sources */ = {
+		13901CE625B13E3900D8E716 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				133E961E25ABFFDC00BB1235 /* ContentView.swift in Sources */,
-				133E961C25ABFFDC00BB1235 /* islandconquesetApp.swift in Sources */,
+				13901D0725B13E3900D8E716 /* ContentView.swift in Sources */,
+				13901D0525B13E3900D8E716 /* islandconquestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		133E960525ABFFDC00BB1235 /* Sources */ = {
+		13901CEE25B13E3900D8E716 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				133E960E25ABFFDC00BB1235 /* Tests_iOS.swift in Sources */,
+				13901CF725B13E3900D8E716 /* Tests_iOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		133E961025ABFFDC00BB1235 /* Sources */ = {
+		13901CF925B13E3900D8E716 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				133E961925ABFFDC00BB1235 /* Tests_macOS.swift in Sources */,
+				13901D0225B13E3900D8E716 /* Tests_macOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		133E960B25ABFFDC00BB1235 /* PBXTargetDependency */ = {
+		13901CF425B13E3900D8E716 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 133E95F825ABFFDC00BB1235 /* islandconqueset (iOS) */;
-			targetProxy = 133E960A25ABFFDC00BB1235 /* PBXContainerItemProxy */;
+			target = 13901CE125B13E3900D8E716 /* islandconquest (iOS) */;
+			targetProxy = 13901CF325B13E3900D8E716 /* PBXContainerItemProxy */;
 		};
-		133E961625ABFFDC00BB1235 /* PBXTargetDependency */ = {
+		13901CFF25B13E3900D8E716 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 133E960025ABFFDC00BB1235 /* islandconqueset (macOS) */;
-			targetProxy = 133E961525ABFFDC00BB1235 /* PBXContainerItemProxy */;
+			target = 13901CE925B13E3900D8E716 /* islandconquest (macOS) */;
+			targetProxy = 13901CFE25B13E3900D8E716 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		133E962125ABFFDC00BB1235 /* Debug */ = {
+		13901D0A25B13E3900D8E716 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -413,7 +413,7 @@
 			};
 			name = Debug;
 		};
-		133E962225ABFFDC00BB1235 /* Release */ = {
+		13901D0B25B13E3900D8E716 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -465,7 +465,7 @@
 			};
 			name = Release;
 		};
-		133E962425ABFFDC00BB1235 /* Debug */ = {
+		13901D0D25B13E3900D8E716 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -479,15 +479,15 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = senecat.islandconqueset;
-				PRODUCT_NAME = islandconqueset;
+				PRODUCT_BUNDLE_IDENTIFIER = senecat.islandconquest;
+				PRODUCT_NAME = islandconquest;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		133E962525ABFFDC00BB1235 /* Release */ = {
+		13901D0E25B13E3900D8E716 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -501,8 +501,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = senecat.islandconqueset;
-				PRODUCT_NAME = islandconqueset;
+				PRODUCT_BUNDLE_IDENTIFIER = senecat.islandconquest;
+				PRODUCT_NAME = islandconquest;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -510,7 +510,7 @@
 			};
 			name = Release;
 		};
-		133E962725ABFFDC00BB1235 /* Debug */ = {
+		13901D1025B13E3900D8E716 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -527,14 +527,14 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = senecat.islandconqueset;
-				PRODUCT_NAME = islandconqueset;
+				PRODUCT_BUNDLE_IDENTIFIER = senecat.islandconquest;
+				PRODUCT_NAME = islandconquest;
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		133E962825ABFFDC00BB1235 /* Release */ = {
+		13901D1125B13E3900D8E716 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -551,14 +551,14 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = senecat.islandconqueset;
-				PRODUCT_NAME = islandconqueset;
+				PRODUCT_BUNDLE_IDENTIFIER = senecat.islandconquest;
+				PRODUCT_NAME = islandconquest;
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
-		133E962A25ABFFDC00BB1235 /* Debug */ = {
+		13901D1325B13E3900D8E716 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -576,11 +576,11 @@
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "islandconqueset (iOS)";
+				TEST_TARGET_NAME = "islandconquest (iOS)";
 			};
 			name = Debug;
 		};
-		133E962B25ABFFDC00BB1235 /* Release */ = {
+		13901D1425B13E3900D8E716 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -598,12 +598,12 @@
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "islandconqueset (iOS)";
+				TEST_TARGET_NAME = "islandconquest (iOS)";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		133E962D25ABFFDC00BB1235 /* Debug */ = {
+		13901D1625B13E3900D8E716 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -621,11 +621,11 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "islandconqueset (macOS)";
+				TEST_TARGET_NAME = "islandconquest (macOS)";
 			};
 			name = Debug;
 		};
-		133E962E25ABFFDC00BB1235 /* Release */ = {
+		13901D1725B13E3900D8E716 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -643,59 +643,59 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "islandconqueset (macOS)";
+				TEST_TARGET_NAME = "islandconquest (macOS)";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		133E95F025ABFFDB00BB1235 /* Build configuration list for PBXProject "islandconqueset" */ = {
+		13901CD925B13E3700D8E716 /* Build configuration list for PBXProject "islandconquest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				133E962125ABFFDC00BB1235 /* Debug */,
-				133E962225ABFFDC00BB1235 /* Release */,
+				13901D0A25B13E3900D8E716 /* Debug */,
+				13901D0B25B13E3900D8E716 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		133E962325ABFFDC00BB1235 /* Build configuration list for PBXNativeTarget "islandconqueset (iOS)" */ = {
+		13901D0C25B13E3900D8E716 /* Build configuration list for PBXNativeTarget "islandconquest (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				133E962425ABFFDC00BB1235 /* Debug */,
-				133E962525ABFFDC00BB1235 /* Release */,
+				13901D0D25B13E3900D8E716 /* Debug */,
+				13901D0E25B13E3900D8E716 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		133E962625ABFFDC00BB1235 /* Build configuration list for PBXNativeTarget "islandconqueset (macOS)" */ = {
+		13901D0F25B13E3900D8E716 /* Build configuration list for PBXNativeTarget "islandconquest (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				133E962725ABFFDC00BB1235 /* Debug */,
-				133E962825ABFFDC00BB1235 /* Release */,
+				13901D1025B13E3900D8E716 /* Debug */,
+				13901D1125B13E3900D8E716 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		133E962925ABFFDC00BB1235 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+		13901D1225B13E3900D8E716 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				133E962A25ABFFDC00BB1235 /* Debug */,
-				133E962B25ABFFDC00BB1235 /* Release */,
+				13901D1325B13E3900D8E716 /* Debug */,
+				13901D1425B13E3900D8E716 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		133E962C25ABFFDC00BB1235 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+		13901D1525B13E3900D8E716 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				133E962D25ABFFDC00BB1235 /* Debug */,
-				133E962E25ABFFDC00BB1235 /* Release */,
+				13901D1625B13E3900D8E716 /* Debug */,
+				13901D1725B13E3900D8E716 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 133E95ED25ABFFDB00BB1235 /* Project object */;
+	rootObject = 13901CD625B13E3700D8E716 /* Project object */;
 }

@@ -1,14 +1,14 @@
 //
-//  islandconquesetApp.swift
+//  islandconquestApp.swift
 //  Shared
 //
-//  Created by Brendt Gerics on 1/10/21.
+//  Created by Brendt Gerics on 1/14/21.
 //
 
 import SwiftUI
 
 @main
-struct islandconquesetApp: App {
+struct islandconquestApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

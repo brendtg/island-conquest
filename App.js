@@ -9,6 +9,7 @@ import ResourceScreen from './src/Resources';
 import OverviewScreen from './src/Overview';
 import BuildingsScreen from './src/Buildings';
 import BattleScreen from './src/Battle';
+import Login from './src/Login';
 import DiplomacyScreen from './src/Diplomacy';
 import Chat from './src/Chat';
 import HomeScreen from './src/Home';
@@ -22,15 +23,6 @@ const Stack = createStackNavigator();
 
 const Home = () => {
   return(
-      <Stack.Navigator>
-        <Stack.Screen name="Home" component={HomeScreen}/>
-        <Stack.Screen name="Glossary" component={GlossaryScreen}/>
-      </Stack.Navigator>
-  )
-}
-const App = () => {
-  return (
-    <NavigationContainer>
       <Tab.Navigator>
         <Tab.Screen name="Buildings" component={BuildingsScreen}/>
         <Tab.Screen name="Battle" component={BattleScreen}/>
@@ -38,6 +30,16 @@ const App = () => {
         <Tab.Screen name="Resources" component={ResourceScreen}/>
         <Tab.Screen name="Chat" component={Chat}/>
       </Tab.Navigator>
+  )
+}
+const App = () => {
+  return (
+    <NavigationContainer>
+      <Stack.Navigator>
+        <Stack.Screen name="Login" component={Login} navigation={Stack}/>
+        <Stack.Screen name="Home" component={HomeScreen}/>
+        <Stack.Screen name="Glossary" component={GlossaryScreen}/>
+      </Stack.Navigator>
     </NavigationContainer>
   );
 }
