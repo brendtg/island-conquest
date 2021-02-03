@@ -1,35 +1,46 @@
-import { StatusBar } from 'expo-status-bar';
 import React, { useState } from 'react';
 import { StyleSheet, Text, View,  TouchableOpacity , TextInput } from 'react-native';
 import 'react-native-gesture-handler';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import GlossaryScreen from './Glossary';
-import ResourceScreen from './Resources';
-import HomeScreen from './Home';
+import GlossaryScreen from './src/Glossary';
+import ResourceScreen from './src/Resources';
+import OverviewScreen from './src/Overview';
+import BuildingsScreen from './src/Buildings';
+import BattleScreen from './src/Battle';
+import Login from './src/Login';
+import DiplomacyScreen from './src/Diplomacy';
+import Chat from './src/Chat';
+import HomeScreen from './src/Home';
 import AsyncStorage from '@react-native-community/async-storage';
 import { useEffect } from 'react';
 
 
 
 const Tab = createBottomTabNavigator();
+const Stack = createStackNavigator();
 
-
-
+const Home = () => {
+  return(
+      <Tab.Navigator>
+        <Tab.Screen name="Buildings" component={BuildingsScreen}/>
+        <Tab.Screen name="Battle" component={BattleScreen}/>
+        <Tab.Screen name="Overview" component={OverviewScreen}/>
+        <Tab.Screen name="Resources" component={ResourceScreen}/>
+        <Tab.Screen name="Chat" component={Chat}/>
+      </Tab.Navigator>
+  )
+}
 const App = () => {
   return (
-    <>
-    <View>
-    </View>
     <NavigationContainer>
-      <Tab.Navigator>
-        <Tab.Screen name="Home" component={HomeScreen}/>
-        <Tab.Screen name="Glossary" component={GlossaryScreen}/>
-        <Tab.Screen name="Resources" component={ResourceScreen}/>
-      </Tab.Navigator>
+      <Stack.Navigator>
+        <Stack.Screen name="Login" component={Login} navigation={Stack}/>
+        <Stack.Screen name="Home" component={Home}  />
+        <Stack.Screen name="Glossary" component={GlossaryScreen}/>
+      </Stack.Navigator>
     </NavigationContainer>
-    </>
   );
 }
 const styles = StyleSheet.create({
@@ -44,7 +55,7 @@ const styles = StyleSheet.create({
     alignItems: 'center'
   },
   title: {
-    fontSize: 22,
+    fontSize: 32,
     color: '#333',
     fontWeight: 'bold'
   },
