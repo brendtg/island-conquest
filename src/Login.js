@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { StyleSheet, Text, TextInput, View, Button } from 'react-native';
 import firebaseSDK from '../config/firebaseSDK';
+import PasswordInputText from 'react-native-hide-show-password-input';
+
 
 const Login = (props) => {
 	const navigationOptions = {
@@ -45,9 +47,8 @@ const Login = (props) => {
                 onChangeText={onChangeTextEmail}
                 value={email}
             />
-            <Text style={styles.title}>Password:</Text>
-            <TextInput
-                style={styles.nameInput}
+            <PasswordInputText
+                style={styles.title}
                 onChangeText={onChangeTextPassword}
                 value={password}
             />

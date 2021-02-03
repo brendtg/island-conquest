@@ -15,7 +15,7 @@ const HomeScreen = ({ navigation }) => {
             />
             <Button title="See rules"
             onPress={() => {
-                navigation.navigate('Glossary')
+                navigation.navigate('Buildings')
             }
             }
             />
